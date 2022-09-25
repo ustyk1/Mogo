@@ -1,0 +1,9 @@
+section.banner {
+    h1 {
+        color: red;
+    };
+
+    &:hover h1 {
+        color: green;
+    }
+}
