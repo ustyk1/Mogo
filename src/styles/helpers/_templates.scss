@@ -1,0 +1,61 @@
+// Текстовые шаблоны
+
+// %descriptionText {
+//     font-family: "Roboto-Regular";
+//     font-size: 15px;
+//     line-height: 24px;
+//     text-align:left;
+//     // color: #333;
+// }
+
+%blockHeaderH2 {
+    font-family: "KaushanScript-Regular";
+    font-size: 24px;
+    
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    
+}
+
+%blockHeaderH3 {
+    font-family: "Montserrat-Bold";
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+%montsBold-footer {
+    font-family: "Montserrat-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    text-align: left;
+    // line-height: 30px;
+    // margin-top: 16px;
+}
+
+%hr-red {
+    width: 60px;
+    height: 3px;
+    object-fit: contain;
+    background-color: $tomato;
+
+    margin-top: 42px;
+}
+
+// %hr-grey {
+//     width: 100%;
+//     height: 1px;
+//     border: none;
+//     background-color: #e5e5e5;
+//     margin-top: 18px;
+//     margin-bottom: 0;
+// }
+
+
