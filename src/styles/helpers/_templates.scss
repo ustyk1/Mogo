@@ -25,7 +25,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #333;
-    margin-top: 16px;
+    margin-top: 14px;
     font-weight: 700;
 }
 
@@ -40,14 +40,18 @@
     // margin-top: 16px;
 }
 
-%hr-red {
-    width: 60px;
-    height: 3px;
-    object-fit: contain;
-    background-color: $tomato;
+// @mixin font($fs) {
+//     font-size: $fs;
+//     line-height: $fs;     
+// }
+// %hr-red {
+//     width: 60px;
+//     height: 3px;
+//     object-fit: contain;
+//     background-color: $tomato;
 
-    margin-top: 42px;
-}
+//     margin-top: 42px;
+// }
 
 // %hr-grey {
 //     width: 100%;
@@ -58,4 +62,4 @@
 //     margin-bottom: 0;
 // }
 
-
+// rgba(255, 255, 255, 0.85)

@@ -1,0 +1,73 @@
+.map {
+
+    &.map-bg {
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), 
+            url('../img/sprites/map-open.png');
+        box-sizing: border-box;
+        
+        .container {
+            box-sizing: border-box;
+            padding: 57px 0px;
+        
+            .open-map {
+                @include fontMontsBold(24px, center, 39px);
+                color: $tomato;
+
+                span {
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        background-image: url('../img/sprites/map-icon.svg');
+                        background-repeat: no-repeat;
+                        width: 20px;
+                        height: 26px;
+                        position: absolute;
+                        top: -40px;
+                        right: -6px; 
+                    }
+
+                    @media (max-width: 959px) {
+                        &::before {
+                            top: -30px;
+                            right: -8px; 
+                        } 
+                    }
+                }
+            }
+
+            @media (max-width: 959px) {
+                .open-map {
+                    margin-top: 30px;
+                    font-size: 18px;
+                } 
+            }
+
+            hr {
+                @include hr-red(20px, 0px);
+            }
+
+            @media (max-width: 959px) {
+                hr {
+                    margin-top: 10px;
+                } 
+            }
+        }
+
+        @media (max-width: 959px) {
+            .container {
+                padding: 30px 0px;
+            } 
+        }
+    }
+
+    @media (max-width: 959px) {
+    &.map-bg {
+            background-size: cover;
+        } 
+    }
+}
+            
+        
+    
+ 
