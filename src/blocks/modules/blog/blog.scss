@@ -97,8 +97,10 @@
 
                 .views-comments {
                     @include  fontRobotoLI(15px);
-                    height: 24px;
+                    display: flex;
+                    flex-direction: row;
 
+                
                     .views {
                         margin-left: 28px;
                         position: relative;
